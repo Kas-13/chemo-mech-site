@@ -3,49 +3,70 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+#favicon: "icon.png"
+
+params:
+  plugins_css:
+    - https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css
+
+    
 # Appearance
 
 appearance:
   theme_day: minimal
   theme_night:
   font: native
-  font_size: L
+  font_size: "m"
 
 # SEO
 
+hugoblox:
+  branding:
+    name: "Chemo-Mechanical Research Group"
+    site_title: "Chemo-Mechanical Research Group"
+    organization: "Chemo-Mechanical Research Group"
+
+    
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    local_business_type: ""
+    org_name: "Chemo-Mechanical Research Group"
+    description: "Electro-chemo-mechanical modeling and advanced energy systems research"
+    twitter: ""
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
+    google_analytics: ""
+    baidu_tongji: ""
+    google_tag_manager: ""
+    microsoft_clarity: ""
   verification:
-    google: ''
-    baidu: ''
+    google: ""
+    baidu: ""
 
 # Site header
 
 header:
   navbar:
     enable: true
-    align: r
+    align: l
+    show_brand: true          # <--- REQUIRED for text to show
     show_logo: true
+    show_title: true
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
+    logo:
+      filename: "logo.png"
+      height: 40
+
+
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: "© {year} Chemo-Mechanical Research Group. This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false
@@ -55,51 +76,51 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: "Jan 2, 2006"
+  time_format: "3:04 PM"
   address_format: en-us
 
 # Site features
 
 features:
   syntax_highlighter:
-    enable: false
+    enable: true
     extra_languages:
       - r
       - latex
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: "https://github.com/<username>/<repository>"
     content_dir: content
     branch: main
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: ""
     disqus:
-      shortname: ''
+      shortname: ""
       show_count: true
     commento:
-      url: ''
+      url: ""
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: ""
+      repo_id: ""
+      category: ""
+      category_id: ""
   search:
     provider: wowchemy
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
+      app_id: ""
+      api_key: ""
+      index_name: ""
       show_logo: false
   map:
-    provider: 'mapnik'
-    api_key: ''
+    provider: "mapnik"
+    api_key: ""
     zoom: 15
 
 # Extensions
@@ -116,3 +137,7 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
+
+
+custom_css:
+  - css/custom.css

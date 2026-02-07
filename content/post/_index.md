@@ -1,11 +1,6 @@
 ---
-title: Latest News
-
-# Listing view
+title: News & Updates
 view: compact
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
 ---
+
+Updates coming soon — stay tuned!

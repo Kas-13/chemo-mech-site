@@ -1,0 +1,14 @@
+<a class="navbar-brand d-flex align-items-center" href="{{ .Site.Home.Permalink }}">
+  {{ $logo := site.Params.header.navbar.logo.filename }}
+  {{ if $logo }}
+    <img src="{{ printf "/media/%s" $logo | relURL }}" 
+         alt="{{ site.Title }}"
+         style="height:40px; width:auto;">
+  {{ end }}
+
+  <span class="navbar-brand-name"
+        style="margin-left:12px; font-size:1.25rem; font-weight:600;">
+    {{ site.Title }}
+  </span>
+</a>
+<script src="{{ "js/chem-subscript.js" | relURL }}"></script>

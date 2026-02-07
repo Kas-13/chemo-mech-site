@@ -1,0 +1,37 @@
+/* Custom header tweaks */
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Logo img inside the brand */
+.navbar-brand img,
+.navbar-brand .navbar-logo {
+  max-height: 38px;
+  width: auto;
+}
+
+/* Text next to the logo */
+.navbar-brand .navbar-title,
+.navbar-brand span {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* Move right-column bio text down a little */
+.article-container > .row > .col-lg-8,
+.profile > .content {
+  margin-top: 1.5rem !important;   /* adjust as needed (1–3rem) */
+}
+
+/* FORCE SHOW TITLE in HugoBlox/Wowchemy */
+.navbar-brand-name {
+  display: inline-block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  margin-left: 10px !important;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
