@@ -42,21 +42,13 @@ sections:
 
   - block: markdown
     content:
-      title:
-      subtitle: ""
-      text: ""
+      title: ""
+      text: |
+        <div style="width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw;margin-top:-4rem;line-height:0;">
+          <img src="/media/contact.jpg" style="width:100%;display:block;" alt="Contact"/>
+        </div>
     design:
       columns: "1"
-      background:
-        image:
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ["20px", "0", "20px", "0"]
-      css_class: fullscreen
+      css_style: "padding: 0 !important; margin: 0 !important;"
+
 ---

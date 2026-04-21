@@ -2,11 +2,11 @@
 title: "Modeling Electro-Chemo-Mechanical Behaviors within the Dense BaZr0.8Y0.2O3–δ Protonic-Ceramic Membrane in a Long Tubular Electrochemical Cell"
 authors:
   - Kasra Taghikhani
-  - A. Dubois
-  - J. R. Berger
-  - S. Ricote
-  - H. Zhu
-  - R. J. Kee
+  - Alexis Dubois
+  - J.R. Berger
+  - Sandrine Ricote
+  - Huayang Zhu
+  - Robert J. Kee
 date: 2021-06-01
 publication_types: ["2"]
 publication: "Membranes"

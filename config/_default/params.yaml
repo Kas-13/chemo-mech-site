@@ -9,7 +9,6 @@ params:
   plugins_css:
     - https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css
 
-    
 # Appearance
 
 appearance:
@@ -26,7 +25,6 @@ hugoblox:
     site_title: "Chemo-Mechanical Research Group"
     organization: "Chemo-Mechanical Research Group"
 
-    
 marketing:
   seo:
     site_type: Organization
@@ -48,8 +46,8 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
-    show_brand: true          # <--- REQUIRED for text to show
+    align: r
+    show_brand: true
     show_logo: true
     show_title: true
     show_language: false
@@ -57,21 +55,16 @@ header:
     show_search: true
     highlight_active_link: true
     logo:
-      filename: "logo.png"
+      filename: "logo_full.png"
       height: 40
-
-
 
 # Site footer
 
 footer:
   copyright:
-    notice: "© {year} Chemo-Mechanical Research Group. This work is licensed under {license}"
+    notice: "© {year} Chemo-Mechanical Research Group"
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
 
 # Localization
 
@@ -134,7 +127,6 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
-
 
 custom_css:
   - css/custom.css

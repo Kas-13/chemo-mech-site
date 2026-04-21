@@ -1,14 +1,45 @@
+<style>
+  .cmrg-brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+    margin-left: 0.55rem;
+    animation: brandSwingIn 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  }
+  @keyframes brandSwingIn {
+    0%   { opacity: 0; transform: rotate(-8deg) translateY(-6px); }
+    60%  { transform: rotate(2deg) translateY(1px); }
+    100% { opacity: 1; transform: rotate(0deg) translateY(0); }
+  }
+  .cmrg-brand-line1 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #1f355e;
+  }
+  .cmrg-brand-line2 {
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: #3a6186;
+    padding-left: 0.6em;
+  }
+  .navbar-brand-name { display: none; }
+</style>
+
 <a class="navbar-brand d-flex align-items-center" href="{{ .Site.Home.Permalink }}">
   {{ $logo := site.Params.header.navbar.logo.filename }}
   {{ if $logo }}
-    <img src="{{ printf "/media/%s" $logo | relURL }}" 
+    <img src="{{ printf "/media/%s" $logo | relURL }}"
          alt="{{ site.Title }}"
-         style="height:40px; width:auto;">
+         class="site-logo">
   {{ end }}
 
-  <span class="navbar-brand-name"
-        style="margin-left:12px; font-size:1.25rem; font-weight:600;">
-    {{ site.Title }}
+  <span class="navbar-brand-name">{{ site.Title }}</span>
+  <span class="cmrg-brand-text">
+    <span class="cmrg-brand-line1">Chemo-Mechanical</span>
+    <span class="cmrg-brand-line2">Research Group</span>
   </span>
 </a>
+
 <script src="{{ "js/chem-subscript.js" | relURL }}"></script>

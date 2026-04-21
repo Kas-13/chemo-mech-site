@@ -3,8 +3,11 @@ title: "Consequences of Plane-Strain and Plane-Stress Assumptions in Fully Coupl
 authors:
   - "Kasra Taghikhani"
   - "Avtar Singh"
-  - "Peter Weddle"
+  - "Peter J. Weddle"
   - "Andrew M. Colclasure"
+  - "Kandler Smith"
+  - "J.R. Berger"
+  - "Robert J. Kee"
 date: 2024-03-01
 publication_types: ["2"]
 publication: "Electrochimica Acta"

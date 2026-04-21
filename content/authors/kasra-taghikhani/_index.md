@@ -33,7 +33,7 @@ social:
 
 email: "kasrataghikhani@mines.edu"
 
-highlight_name: true
+highlight_name: false
 
 user_groups:
   - Principal Investigators

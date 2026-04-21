@@ -6,7 +6,7 @@ authors:
   - William Huber
   - Robert M. Hoffman
   - Mohsen Asle Zaeem
-  - John R. Berger
+  - J.R. Berger
   - Robert J. Kee
 date: 2024-01-01
 publication_types: ["1"]   # 1 = conference proceeding

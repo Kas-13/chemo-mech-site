@@ -1,4 +1,4 @@
-/* Custom header tweaks */
+/* ===== Navbar tweaks (clean only) ===== */
 
 .navbar-brand {
   display: flex;
@@ -6,27 +6,27 @@
   gap: 0.4rem;
 }
 
-/* Logo img inside the brand */
+/* Logo inside navbar */
 .navbar-brand img,
 .navbar-brand .navbar-logo {
   max-height: 38px;
   width: auto;
 }
 
-/* Text next to the logo */
+/* Text next to logo */
 .navbar-brand .navbar-title,
 .navbar-brand span {
   font-size: 1.05rem;
   font-weight: 600;
 }
 
-/* Move right-column bio text down a little */
+/* Move content spacing slightly */
 .article-container > .row > .col-lg-8,
 .profile > .content {
-  margin-top: 1.5rem !important;   /* adjust as needed (1–3rem) */
+  margin-top: 1.5rem !important;
 }
 
-/* FORCE SHOW TITLE in HugoBlox/Wowchemy */
+/* Ensure title always shows */
 .navbar-brand-name {
   display: inline-block !important;
   opacity: 1 !important;
@@ -34,4 +34,44 @@
   margin-left: 10px !important;
   font-size: 1.25rem !important;
   font-weight: 600 !important;
+}
+
+
+/* ===== Typography tuning (slightly more condensed) ===== */
+
+/* Base body text */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Main hero title */
+h1 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin-bottom: 0.6em;
+}
+
+/* Section headings */
+h2 {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraph spacing tighter */
+p {
+  margin-bottom: 0.8em;
+}
+
+/* Lists (if any later) */
+ul, ol {
+  margin-bottom: 0.8em;
+  padding-left: 1.2em;
+}
+
+/* Slightly tighten sections spacing */
+.section {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
 }

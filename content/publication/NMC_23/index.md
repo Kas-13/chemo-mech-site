@@ -2,10 +2,10 @@
 title: "Electro-Chemo-Mechanical Finite-Element Model of Single-Crystal and Polycrystalline NMC Cathode Particles Embedded in an Argyrodite Solid Electrolyte"
 authors:
   - Kasra Taghikhani
-  - P. J. Weddle
-  - R. M. Hoffman
-  - J. R. Berger
-  - R. J. Kee
+  - Peter J. Weddle
+  - Robert M. Hoffman
+  - J.R. Berger
+  - Robert J. Kee
 date: 2023-01-01
 publication_types: ["2"]
 publication: "Electrochimica Acta"

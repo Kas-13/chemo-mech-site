@@ -1,5 +1,7 @@
 ---
 title: Robert Hoffman
+aliases:
+  - /author/robert-m.-hoffman/
 first_name: Robert
 last_name: Hoffman
 weight: 1

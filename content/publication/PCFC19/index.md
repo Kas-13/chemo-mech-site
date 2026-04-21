@@ -3,7 +3,7 @@ title: "Chemo-Thermo-Mechanical Coupling in Protonic Ceramic Fuel Cells from Fab
 authors:
   - Alexis Dubois
   - Kasra Taghikhani
-  - J. R. Berger
+  - J.R. Berger
   - Huayang Zhu
   - Ryan P. O’Hayre
   - Robert J. Braun

@@ -1,1 +1,60 @@
 @import "custom";
+
+/* ===== Navbar ===== */
+
+.main-logo,
+.site-logo {
+  height: 40px !important;
+  width: auto !important;
+}
+
+.navbar-brand {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.navbar-brand-name {
+  display: inline-block !important;
+  margin-left: 10px !important;
+  font-size: 1.15rem !important;
+  font-weight: 600 !important;
+}
+
+/* ===== Tighten overall spacing ===== */
+
+.section {
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+}
+
+.home-section {
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+}
+
+/* ===== Hero ===== */
+
+.wg-hero,
+.hero {
+  padding-top: 1.2rem !important;
+  padding-bottom: 1.2rem !important;
+}
+
+
+.wg-hero p,
+.wg-hero .lead,
+.hero-lead,
+.home-section .lead {
+  font-size: 16px !important;
+  line-height: 1.55 !important;
+  margin-bottom: 0.7em !important;
+  max-width: 780px !important;
+}
+
+/* ===== Footer ===== */
+
+footer {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}

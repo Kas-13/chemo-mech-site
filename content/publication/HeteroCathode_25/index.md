@@ -5,8 +5,8 @@ authors:
   - William Huber
   - Peter J. Weddle
   - Mohsen Asle Zaeem
-  - J. R. Berger
-  - R. J. Kee
+  - J.R. Berger
+  - Robert J. Kee
 date: 2025-01-01
 publication_types: ["2"]
 publication: "Journal of the Mechanics and Physics of Solids"

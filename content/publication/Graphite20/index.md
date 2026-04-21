@@ -3,7 +3,7 @@ title: "Chemo-mechanical Behavior of Highly Anisotropic and Isotropic Polycrysta
 authors:
   - Kasra Taghikhani
   - Peter J. Weddle
-  - J. R. Berger
+  - J.R. Berger
   - Robert J. Kee
 date: 2020-01-01
 publication_types: ["2"]   # Journal article

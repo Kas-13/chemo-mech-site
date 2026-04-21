@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Chemo-Mechanical Research Group # Website name
-baseURL: 'https://chemo-mech-group.github.io/' # Website URL
+baseURL: "https://chemo-mech-group.github.io/" # Website URL
 
 ############################
 ## LANGUAGE
@@ -46,8 +46,12 @@ taxonomies:
   category: categories
   publication_type: publication_types
   author: authors
+  _merge: deep
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
 related:
   threshold: 80
   includeNewer: true

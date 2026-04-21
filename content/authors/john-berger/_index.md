@@ -1,5 +1,7 @@
 ---
 title: John Berger
+aliases:
+  - /author/j.r.-berger/
 first_name: John
 last_name: Berger
 role: "Professor of Mechanical Engineering"
@@ -8,7 +10,7 @@ weight: 2
 
 organizations:
   - name: Colorado School of Mines
-    url: "https://mechanical.mines.edu/"
+    url: "https://mechanical.mines.edu/project/berger-john/"
 
 email: "jberger@mines.edu"
 
@@ -44,14 +46,11 @@ Dr. John Berger is a Professor of Mechanical Engineering at the Colorado School 
 
 ---
 
-### Quotes
+> *”The exam is long — but tedious!”*
 
-> “The exam is long — but tedious.”  
-> — Dr. Berger  
+> *”In fracture mechanics, the first question is always: Why did it break?”*
 
-> “In fracture mechanics, the first question is always: Why did it break?”  
-> — Dr. Berger  
+> *”A component will always fail by the most energetically favorable pathway — whether or not we have studied that pathway.”*
 
-> “A component will always fail by the most energetically favorable pathway — whether or not we have studied that pathway.”  
-> — Dr. Berger  
+> *”When the topic is complicated, it behooves you that I've done this with sophistication — walk a fine line of demonstrating expertise, but not losing your audience.”*
 

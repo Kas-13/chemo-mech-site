@@ -1,5 +1,7 @@
 ---
 title: Robert Kee
+aliases:
+  - /author/robert-j.-kee/
 first_name: Robert
 last_name: Kee
 weight: 3
@@ -44,12 +46,8 @@ Dr. Robert J. Kee is a Professor of Mechanical Engineering and holds the George 
 
 ---
 
-### Quotes
+> *”Our calculations are exact — for the parameters that we have assumed.”*
 
-> “Our calculations are exact — for the parameters that we have assumed.”  
-> — Dr. Kee  
+> *”Well, that’s a great story. Now let’s finish it — and then find another great story.”*
 
-<br>
-
-> “Well, that’s a great story. Now let’s finish it — and then find another great story.”  
-> — Dr. Kee
+> *”You put that research together, you don’t go to graduation — you go to Stockholm!”*

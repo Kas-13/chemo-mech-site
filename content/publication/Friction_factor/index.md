@@ -6,7 +6,7 @@ authors:
   - "Huayang Zhu"
   - "Oyvind Nilsen"
 date: 2026-01-01
-publication_types: ["1"]
+publication_types: ["2"]
 publication: "International Journal of Heat and Fluid Flow"
 publication_short: "Int. J. Heat Fluid Fl."
 abstract: ""

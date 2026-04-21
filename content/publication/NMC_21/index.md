@@ -2,9 +2,9 @@
 title: "Modeling Coupled Chemo-Mechanical Behavior of Randomly Oriented NMC811 Polycrystalline Li-Ion Battery Cathodes"
 authors:
   - "Kasra Taghikhani"
-  - "Peter Weddle"
-  - "J. Berger"
-  - "Robert Kee"
+  - "Peter J. Weddle"
+  - "J.R. Berger"
+  - "Robert J. Kee"
 date: 2021-01-01
 publication_types: ["2"]   # journal
 publication: "Journal of the Electrochemical Society"
