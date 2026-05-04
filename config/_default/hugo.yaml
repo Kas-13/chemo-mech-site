@@ -47,8 +47,8 @@ taxonomies:
   publication_type: publication_types
   author: authors
   _merge: deep
+
 markup:
-  _merge: deep
   goldmark:
     renderer:
       unsafe: true

@@ -55,7 +55,7 @@ header:
     show_search: true
     highlight_active_link: true
     logo:
-      filename: "logo_full.png"
+      filename: "logo_cmrg.svg"
       height: 40
 
 # Site footer

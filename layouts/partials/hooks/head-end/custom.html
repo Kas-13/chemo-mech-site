@@ -68,6 +68,33 @@
     font-weight: 600 !important;
   }
 
+  /* ── People page — card style matching homepage boxes ── */
+  .people-widget .row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    overflow: visible !important;
+  }
+  .people-widget .people-person {
+    border: 0.5px solid rgba(0,0,0,0.1) !important;
+    border-top: 3px solid #1f355e !important;
+    border-radius: 0 0 12px 12px !important;
+    background: #fff !important;
+    padding: 1.4rem 1.1rem 1.2rem !important;
+    transition: transform 0.15s ease, box-shadow 0.15s ease !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+    margin: 0.6rem !important;
+  }
+  .people-widget .people-person:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important;
+  }
+  .people-widget .people-person a img.avatar {
+    transition: none !important;
+    transform: none !important;
+  }
+
   /* ── Force page wrapper to full viewport so footer always hits the bottom ── */
   .page-wrapper {
     min-height: 100vh !important;
