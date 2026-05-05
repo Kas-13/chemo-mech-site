@@ -48,6 +48,6 @@ Dr. Robert J. Kee is a Professor of Mechanical Engineering and holds the George 
 
 > *”Our calculations are exact — for the parameters that we have assumed.”*
 
-> *”Well, that’s a great story. Now let’s finish it — and then find another great story.”*
+> *”That’s a great story. Now let’s finish it — and then go find the next one.”*
 
-> *”You put that research together, you don’t go to graduation — you go to Stockholm!”*
+> *”Pull that research together and you won’t be going to graduation — you’ll be going to Stockholm.”*

@@ -50,7 +50,7 @@ Dr. John Berger is a Professor of Mechanical Engineering at the Colorado School 
 
 > *”In fracture mechanics, the first question is always: Why did it break?”*
 
-> *”A component will always fail by the most energetically favorable pathway — whether or not we have studied that pathway.”*
+> *”A component will always fail by the most energetically favorable pathway — whether or not we've studied that pathway.”*
 
-> *”When the topic is complicated, it behooves you that I've done this with sophistication — walk a fine line of demonstrating expertise, but not losing your audience.”*
+> *”When the subject gets complicated, it's about walking the fine line of demonstrating expertise without losing your audience.”*
 

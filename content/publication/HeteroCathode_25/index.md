@@ -19,9 +19,9 @@ tags:
   - ASSB
   - Composite cathodes
   - Chemo-mechanical coupling
-links: 
+links:
   - name: "DOI"
-    DOI: https://doi.org/10.1016/j.jmps.2025.106060
+    url: "https://doi.org/10.1016/j.jmps.2025.106060"
 url_pdf: ""
 image:
   caption: ""

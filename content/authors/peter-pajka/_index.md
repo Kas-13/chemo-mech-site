@@ -28,8 +28,6 @@ user_groups:
   - Graduate Students
 ---
 
-## Research Overview
-
 Peter completed both his BS and MS at Mines, with a minor in aerospace and a strong interest in computational and applied mathematics.
 
 His research focuses on electro-chemo-mechanical modeling of electrochemical systems—particularly all-solid-state batteries—using finite-element and phase-field methods.
